@@ -4,7 +4,7 @@ The overall system is intended to be a ultra-fast light speed version of my Cont
 # Overall System design
 Current will be injected into 3 DUT's, where the differential voltages at both DUT pins can be used to calculate voltage. 6 ADCs are placed at the 6 DUT pins to convert an analog signal to a binary signal to be transmitted photonically. The information will be transmitted in the photonic IC detailed in [**INTERCONNECT Circuit**](./design%20process/3%20-%20INTERCONNECT%20Circuit.md), then recovered via photodiode and understood by the STM32 MCU.
 
-<p align = "center"><img width="1008" height="579" alt="image" src="https://github.com/user-attachments/assets/c37aec10-524c-40da-8d93-dcf84db78dd5" /></p>
+<p align = "center"><img width="1008" height="579" alt="image" src="https://github.com/user-attachments/assets/1a2011da-ad0d-4ae8-9e4d-81e4413c782e" /></p>
 <p align = "center"><em> Figure 1: Overall system schematic of the photonic reimagining of my Continuity Test. </em></p>
 
 # Project Evolution
